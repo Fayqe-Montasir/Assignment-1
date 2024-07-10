@@ -25,8 +25,10 @@
     font-size: 20px;
     padding: 21px 24px;
     border-radius: 8px;
-    background-color: rgba(13, 19, 33, 1);
     color: rgba(255, 255, 255, 1);
+    background-color: rgba(13, 19, 33, 1);
+
+
 }
 
 .title {
@@ -66,23 +68,103 @@
     color: rgba(13, 19, 33, 1);
     font-size: 16px;
 }
+
 .main-title {
     text-align: center;
-    margin:78px 295px 48px;
+    margin: 78px 295px 48px;
 }
-.video{
+
+.video {
     border-radius: 16px;
     width: 1076px;
     height: 550px;
-    margin-top: 32px; 
+    margin-top: 32px;
 }
+
 .youtube {
-    border: 2px solid rgb(6, 6, 6);
+    border: 1px solid #0D1321;
     border-radius: 16px;
     width: 1140px;
-    height: 600px;
+    height: 614px;
     padding: 32px;
 }
 
+.font-style {
+    text-align: center;
+    margin: 151px 247px 48px;
+}
 
+.box {
+    display: flex;
+    gap: 24px;
+    margin: 48px 150px 111px;
+}
 
+.box-1 {
+    border: 1px solid white;
+    padding: 40px;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+}
+
+.box-2 {
+    border: 1px solid white;
+    padding: 40px;
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+}
+
+.box-3 {
+    border: 1px solid white;
+    padding: 40px;
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+}
+
+.hero {
+    height: 313px;
+    width: 1140px;
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid;
+    border-radius: 16px;
+    padding: 64px 48px;
+    margin: 48px 150px 80px;
+    text-align: center;
+}
+
+.head {
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 0 376px 16px;
+}
+
+.title-p1 {
+    color: #FFFFFF;
+    margin: 16px 219px 24px;
+}
+
+.footer-1 {
+    width: 548px;
+    border-radius: 8px;
+    padding: 19px 215px 19px 20px;
+    gap: 16px;
+}
+
+.footer-2 {
+    width: 120px;
+    font-size: 20px;
+    padding: 17px 19px;
+    border-radius: 8px;
+}
+
+.icon {
+    border: 1px solid wheat;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
+}
